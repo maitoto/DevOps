@@ -3,7 +3,7 @@ from app import saluer
 def test_saluer_retourne_message():
     resultat = saluer("Mohamed Bellahcene")
     assert "Mohamed Bellahcene" in resultat
-    assert "Bonjour" in resultat
+    assert "Salut" in resultat
 
 def test_saluer_vide():
     resultat = saluer("")
